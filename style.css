@@ -3,3 +3,47 @@
   padding: 0px;
   list-style: none;  
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.cabecalho {
+  background-color: #5d2821;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin-left: 10px;
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.secao1 {
+  display: flex;
+  max-width: 800px;
+}
+
+.secao1 div {
+  margin: 10px;
+  flex: 1 1 200px;
+}
