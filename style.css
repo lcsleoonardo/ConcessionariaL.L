@@ -38,12 +38,25 @@ h1 {
   margin-bottom: 50px;
 }
 
-.secao1 {
-  display: flex;
-  max-width: 800px;
+
+.div-sessao1 { /*div pai da primeira sessão*/
+  display: flex; /*Tornei os itens Flex - Alinhando lado a lado*/
+  justify-content: space-evenly; /*Justificando o conteúdo*/
 }
 
-.secao1 div {
-  margin: 10px;
-  flex: 1 1 200px;
+.div-sessao1 img {
+  width: 15rem; /*Largura da Imagem*/
+  height: 10rem; /*Altura da Imagem*/
+}
+
+
+
+.div-sessao2 img {
+  width: 15rem;
+  height: 10rem;
+}
+
+.div-sessao2 {
+  display: flex;
+  justify-content: space-evenly;
 }
